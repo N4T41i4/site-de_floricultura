@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header ,
+section h3,
+section h2,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight:normal;
+}
+body,input,textarea{
+    font-family: 'Fredoka One', cursive;
+}
+header{
+    padding:16px 0;
+    background-color:#e9e2e29f;
+    color:#63123a;
+    font-size:24px;
+
+}
+
+header nav li{
+    display:inline;
+    margin-left:10px;
+    font-size:19px;
+}
+header nav li a{
+    color:#272424;
+    text-decoration:none;
+}
+
+.container{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+}
+
+header .container,
+section .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.brands-list li{
+    display:inline;
+}
+section .container{
+    align-items:flex-start;
+}
+section{
+    padding:34px 0;
+}
+section h2{
+    margin-bottom:8px;
+    color:#272424;
+}
+section p{
+    margin-bottom:8px;
+}
+
+.imgdafrente{
+    margin-right:10px;
+    width:50%;
+}
+.social-links img{
+    height:24px;
+}
+#contact .container{
+    display:block;
+
+}
+
+.social-links li{
+    display:inline;
+    margin-right:8px;
+}
+.social-links li a {
+    text-decoration:none;
+}
+.contact-methods{
+    display:flex;
+    justify-content:space-between;
+}
+form input,
+form textarea,
+form button{
+    display:block;
+    width:320px;
+    margin-bottom:8px;
+    padding:8px;
+}
+
+form textarea{
+    resize:none;
+    height:100px;
+}
+form button{
+    background-color:#e9e2e29f;
+    color:#63123a;
+    border:none;
+    cursor:pointer;
+
+}
+form button:hover{
+    background: #4241419f;
+}
+input:focus,textarea:focus{
+    outline-color:#e9e2e29f;
+}
+
+footer{
+    background-color:#e9e2e29f;
+    color:#4241419f;
+    padding:16px 0;
+}
+.produtos{
+    margin-left: 10px;;
+}
+.produtos img{
+    margin-right:10px;
+    width:500px;
+}
+.produtos li{
+    display:grid;
+    margin-right:500px;}
+
+.produtos li a{
+    text-decoration:none;
+}
+
+.produtos h3{
+    display:flex;
+    padding:50px 0;
+    justify-content:center;
+}
+.preço{
+    border:none;
+    color:#4241419f;
+    font-size:24px;
+    cursor:pointer;
+    padding:15px 32px;
+}
